@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #3160be;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  font-weight: 100;
+  color: white;
+  animation: background-change 20s infinite alternate;
+
+  .by {
+    padding: 10px;
+    font-size: calc(5px + 2vmin);
+    font-weight: 300;
+  }
+}
+
+@keyframes background-change {
+  0% {
+    background-color: #863264;
+  }
+  25% {
+    background-color: #3160be;
+  }
+  50% {
+    background-color: #31beb1;
+  }
+  75% {
+    background-color: #beb331;
+  }
+  100% {
+    background-color: #4dbe31;
+  }
+}
+
